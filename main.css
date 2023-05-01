@@ -12,6 +12,12 @@
     h2 {
         font-size: 22.22px;
     }
+    h3 {
+        font-size: 18.52px;
+    }
+    h4 {
+        font-size: 15.43px;
+    }
     #title {
         padding-top: 75px;
     }
@@ -32,6 +38,48 @@
     .strelica {
         scale: 0.5;
         top:-30px;
+    }
+    .cena {
+        padding-top: 20px;
+    }
+    .od {
+        position: relative;
+        left:15px;
+        top:8px;
+    }
+    .detaljnije {
+        padding-bottom: 10px;
+        padding-top:10px;
+        padding-right: 5px;
+        padding-left: 5px;
+        position: absolute;
+        width: 97%;
+        top:0%;
+        left:0%;
+        font-size: 15.43px;
+    }
+    .detaljnijeDiv {
+        padding-bottom: 40px;
+    }
+    .ponuda {
+        margin-top: 150px;
+    }
+    .domenCena {
+        padding-top:10px;
+    }
+    #proveraDomena {
+        width: 100%;
+        position: relative;
+        top:20%;
+    }
+    #proveriDugme {
+        width: 100%;
+        position: relative;
+        top:20%;
+    }
+    .headerText {
+        position: relative;
+        left:-150px;
     }
 }
 @media screen and (max-width:800px) {
@@ -67,12 +115,61 @@
     #content2 {
         top:-70px;
     }
-}
-
-.tekst {
-    color: #21295C;
+    .headerText {
+        display: none;  
+    }
 }
 
 body {
     background-color: #CBCBCB;
+}
+.naslov-tekst {
+    color: white;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left: 20px;
+    display: inline-block;
+}
+.sadrzaj-tekst {
+    color: white;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.plavTekst {
+    color: #21295C;
+}
+.naslov-tekst, .sadrzaj-tekst {
+    margin:0;
+}
+.sadrzaj {
+    margin-top:50px;
+}
+.inputPolje {
+    border: 3px solid #21295C;
+}
+#prelazite {
+    padding-top: 70px;
+}
+#prelaziteBtn {
+    margin-top: 70px;
+    width: 100%;
+    /* margin-bottom: 100px ; */
+}
+input::placeholder {
+    text-align: center;
+  }
+.beoTekst {
+    color:white;
+}
+#footer {
+    height: 100%;
+    position:relative; 
+    top:20px
+}
+#footerRow {
+    position: relative; 
+    top:50px
+}
+#footerContainer {
+    padding-bottom: 100px;
 }
