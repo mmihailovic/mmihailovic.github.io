@@ -24,9 +24,6 @@
     #content,#content2 {
         padding-top: 30px;
     }
-    #content2 {
-        top:-100px;
-    }
     #slider {
         height: 400px;
         position:relative;
@@ -53,7 +50,7 @@
         padding-right: 5px;
         padding-left: 5px;
         position: absolute;
-        width: 97%;
+        width: 100%;
         top:0%;
         left:0%;
         font-size: 15.43px;
@@ -81,6 +78,23 @@
         position: relative;
         left:-150px;
     }
+    #footer {
+        height: 100%;
+        position:relative; 
+        top:20px
+    }
+    .inputPolje {
+        border: 3px solid #21295C;
+    }
+    #prelazite {
+        padding-top: 70px;
+    }
+    #kontaktDiv {
+        padding-bottom:40px;
+    }
+    .footerText {
+        text-align: right;
+    }
 }
 @media screen and (max-width:800px) {
     .logo {
@@ -91,6 +105,12 @@
     }
     h2 {
         font-size: 12.56px;
+    }
+    h3 {
+        font-size: 10.72px;
+    }
+    h4 {
+        font-size: 8.93px;
     }
     #slider {
         height: 230px;
@@ -106,17 +126,93 @@
         width: 80px;
         top:-45px;
     }
-    #strelicalevo {
-        left:-30px;
-    }
-    #strelicadesno {
-        left:230px;
-    }
-    #content2 {
-        top:-70px;
+    #content,#content2 {
+        top: 20px;
     }
     .headerText {
         display: none;  
+    }
+    .footerText {
+        text-align: left;
+        position: relative;
+        top:20px;
+    }
+    #footer {
+        height: 50%;
+    }
+    #proveraDomena {
+        width: 100%;
+        position: relative;
+        top:20%;
+    }
+    .inputPolje {
+        border: 2px solid #21295C;
+    }
+    #proveriDugme {
+        /* width: 100%; */
+        height: 50%;
+        position: relative;
+        top:25%;
+        font-size: 12.56px;
+        left:-10px;
+    }
+    input::placeholder {
+        font-size: 12.56px;
+    }
+    #prelazite {
+        padding-top: 40px;
+    }
+    #kontaktDiv {
+        padding-bottom:40px;
+    }
+    .ponuda {
+        margin-top: 50px;
+    }
+    .strelica {
+        scale: 0.5;
+        position: relative;
+        top:-20px;
+    }
+    .domenCena {
+        padding-top:15px;
+        position: relative;
+        left:-20px;
+    }
+    .domenGod {
+        position: relative;
+        left:-20px;
+    }
+    .detaljnije {
+        padding-right: 5px;
+        padding-left: 5px;
+        position: absolute;
+        width: 100%;
+        top:0%;
+        left:0%; 
+        font-size: 10.43px;
+    }
+    .detaljnijeDiv {
+        padding-bottom: 10px;
+        height:40px
+    }
+    .rsd {
+        position:relative;
+        top:5px;
+        left:-5px;
+    }
+    .od {
+        position: relative;
+        left:15px;
+        top:10px;
+    }
+    .iznos {
+        position:relative;
+        left:-7px;
+        top:4px;
+    }
+    .mesec {
+        position:relative;
+        left:-5px;
     }
 }
 
@@ -124,11 +220,11 @@ body {
     background-color: #CBCBCB;
 }
 .naslov-tekst {
-    color: white;
-    padding-top:20px;
-    padding-bottom:20px;
-    padding-left: 20px;
-    display: inline-block;
+        color: white;
+        padding-top:20px;
+        padding-bottom:20px;
+        padding-left: 20px;
+        display: inline-block;
 }
 .sadrzaj-tekst {
     color: white;
@@ -144,12 +240,6 @@ body {
 .sadrzaj {
     margin-top:50px;
 }
-.inputPolje {
-    border: 3px solid #21295C;
-}
-#prelazite {
-    padding-top: 70px;
-}
 #prelaziteBtn {
     margin-top: 70px;
     width: 100%;
@@ -157,14 +247,9 @@ body {
 }
 input::placeholder {
     text-align: center;
-  }
+}
 .beoTekst {
     color:white;
-}
-#footer {
-    height: 100%;
-    position:relative; 
-    top:20px
 }
 #footerRow {
     position: relative; 
