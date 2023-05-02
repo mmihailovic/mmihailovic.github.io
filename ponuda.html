@@ -62,6 +62,10 @@
                 strelicalevo.setAttribute("src","img/dark_arrow_left.png");
             }
         }
+        function prebaciNaNovuStranicu(adresa) {
+            console.log(adresa);
+            window.location = adresa;
+        }
     </script>
     <div class="container-fluid bg-primary headerDiv">
     <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
@@ -73,10 +77,10 @@
           <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="#">POCETNA</a>
+                <a class="nav-link" href="index.html">POCETNA</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">PONUDA</a>
+                <a class="nav-link" href="ponuda.html">PONUDA</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">BLOG</a>
@@ -137,7 +141,7 @@
                 </div>
                 <div class="row">
                     <div class="bg-secondary detaljnijeDiv col-md-4 col-3"></div>
-                    <div class="bg-secondary col-md-4 col-6 detaljnijeDiv"><button class="btn btn-primary text-center detaljnije">DETALJNIJE</button></div>
+                    <div class="bg-secondary col-md-4 col-6 detaljnijeDiv"><button class="btn btn-primary text-center detaljnije" onclick="prebaciNaNovuStranicu('web-hosting.html')">DETALJNIJE</a></div>
                     <div class="bg-secondary detaljnijeDiv cena col-md-4 col-3"></div>
                 </div>
             </div>
@@ -231,6 +235,10 @@
                     <div class="bg-secondary detaljnijeDiv cena col-md-4 col-3"></div>
                 </div>
             </div>
+        </div>
+        <div class="row">
+            <h2 class="offset-md-2 col-md-8 col-8 offset-2 text-center plavTekst sadrzaj">Svi paketi obuhvataju servere koji koriste SSD diskove i besplatan SSL sertifikat.</h2>
+            <h2 class="offset-md-1 col-md-10 col-10 offset-1 text-center plavTekst sadrzaj">Cene naših usluga prilagodili smo uslovima tržišta i slobodno tvrdimo da nudimo najbolja hosting rešenja po najpovoljnijim uslovima na teritoriji Srbije.</h2>
         </div>
     </div>
     <div class="container ponuda">
