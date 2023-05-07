@@ -259,3 +259,6 @@ input::placeholder {
 #footerContainer {
     padding-bottom: 100px;
 }
+* {
+    font-family: 'Noticia Text';
+}
